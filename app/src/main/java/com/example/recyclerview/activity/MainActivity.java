@@ -41,34 +41,34 @@ public class MainActivity extends AppCompatActivity {
 
         //Criar metodo para cadastrar filmes
 
+    }
 
-        private void criarFilmes() {
-            Filme filme = new Filme("titulo1","genero","ano");
-            this.listaFilmes.add( filme );
+    private void criarFilmes() {
+        Filme filme = new Filme("titulo1","genero","ano");
+        this.listaFilmes.add( filme );
 
-            filme = new Filme("titulo2","genero","ano");
-            this.listaFilmes.add( filme );
+        filme = new Filme("titulo2","genero","ano");
+        this.listaFilmes.add( filme );
 
-            filme = new Filme("titulo3","genero","ano");
-            this.listaFilmes.add( filme );
+        filme = new Filme("titulo3","genero","ano");
+        this.listaFilmes.add( filme );
 
-            filme = new Filme("titulo4","genero","ano");
-            this.listaFilmes.add( filme );
+        filme = new Filme("titulo4","genero","ano");
+        this.listaFilmes.add( filme );
 
-            filme = new Filme("titulo5","genero","ano");
-            this.listaFilmes.add( filme );
+        filme = new Filme("titulo5","genero","ano");
+        this.listaFilmes.add( filme );
 
-            filme = new Filme("titulo6","genero","ano");
-            this.listaFilmes.add( filme );
+        filme = new Filme("titulo6","genero","ano");
+        this.listaFilmes.add( filme );
 
-            filme = new Filme("titulo7","genero","ano");
-            this.listaFilmes.add( filme );
+        filme = new Filme("titulo7","genero","ano");
+        this.listaFilmes.add( filme );
 
-            filme = new Filme("titulo8","genero","ano");
-            this.listaFilmes.add( filme );
+        filme = new Filme("titulo8","genero","ano");
+        this.listaFilmes.add( filme );
 
-            filme = new Filme("titulo9","genero","ano");
-            this.listaFilmes.add( filme );
-        }
+        filme = new Filme("titulo9","genero","ano");
+        this.listaFilmes.add( filme );
     }
 }

@@ -33,15 +33,16 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> {
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
 
-        holder.titulo.setText("Rafael");
-        holder.ano.setText("2021");
+        Filme filme = listaFilmes.get(position);
+        holder.titulo.setText(filme.getTituloFilme());
+        holder.ano.setText(filme.getAno());
         holder.genero.setText("Masculino");
 
     }
 
     @Override
     public int getItemCount() {
-        return 5;
+        return listaFilmes.size();
     }
 
     //Criando uma INNER CLASS
