@@ -36,7 +36,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> {
         Filme filme = listaFilmes.get(position);
         holder.titulo.setText(filme.getTituloFilme());
         holder.ano.setText(filme.getAno());
-        holder.genero.setText("Masculino");
+        holder.genero.setText(filme.getGenero());
 
     }
 
